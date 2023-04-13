@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "caloriesExpended": {
+      "home": {
+        "title": "Calories Expendeds",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Calories Expended",
+        "createOrEditLabel": "Crear o editar Calories Expended",
+        "notFound": "Ningún Calories Expendeds encontrado"
+      },
+      "created": "Un nuevo Calories Expended ha sido creado con el identificador {{ param }}",
+      "updated": "Un Calories Expended ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Calories Expended ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Calories Expended {{ id }}?"
+      },
+      "detail": {
+        "title": "Calories Expended"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "calorias": "Calorias",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

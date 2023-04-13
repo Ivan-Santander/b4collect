@@ -1,0 +1,45 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152706",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "sleep_segment",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldSleepSegmentType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldBloodGlucoseSpecimenSource",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "SleepSegment",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

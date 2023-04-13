@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "heightSummary": {
+      "home": {
+        "title": "Height Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Height Summary",
+        "createOrEditLabel": "Criar ou editar Height Summary",
+        "notFound": "Nenhum Height Summary encontrado"
+      },
+      "created": "Um novo Height Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Height Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Height Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Height Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Height Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

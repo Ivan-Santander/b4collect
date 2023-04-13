@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140206",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "step_count_delta",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "steps",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "StepCountDelta",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

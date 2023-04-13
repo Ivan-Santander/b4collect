@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "sleepScores": {
+      "home": {
+        "title": "Sleep Scores",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Sleep Scores",
+        "createOrEditLabel": "Crear o editar Sleep Scores",
+        "notFound": "Ningún Sleep Scores encontrado"
+      },
+      "created": "Un nuevo Sleep Scores ha sido creado con el identificador {{ param }}",
+      "updated": "Un Sleep Scores ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Sleep Scores ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Sleep Scores {{ id }}?"
+      },
+      "detail": {
+        "title": "Sleep Scores"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "sleepQualityRatingScore": "Sleep Quality Rating Score",
+      "sleepEfficiencyScore": "Sleep Efficiency Score",
+      "sleepGooalSecondsScore": "Sleep Gooal Seconds Score",
+      "sleepContinuityScore": "Sleep Continuity Score",
+      "sleepContinuityRating": "Sleep Continuity Rating"
+    }
+  }
+}

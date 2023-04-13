@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140214",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "blood_pressure",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldBloodPressureSystolic",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldBloodPressureDiastolic",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldBodyPosition",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldBloodPressureMeasureLocation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BloodPressure",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

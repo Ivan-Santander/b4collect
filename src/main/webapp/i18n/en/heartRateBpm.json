@@ -1,0 +1,27 @@
+{
+  "b4CarecollectApp": {
+    "heartRateBpm": {
+      "home": {
+        "title": "Heart Rate Bpms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Heart Rate Bpm",
+        "createOrEditLabel": "Create or edit a Heart Rate Bpm",
+        "notFound": "No Heart Rate Bpms found"
+      },
+      "created": "A new Heart Rate Bpm is created with identifier {{ param }}",
+      "updated": "A Heart Rate Bpm is updated with identifier {{ param }}",
+      "deleted": "A Heart Rate Bpm is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Heart Rate Bpm {{ id }}?"
+      },
+      "detail": {
+        "title": "Heart Rate Bpm"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "ppm": "Ppm",
+      "endTime": "End Time"
+    }
+  }
+}

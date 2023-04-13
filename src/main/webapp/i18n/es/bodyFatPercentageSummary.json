@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "bodyFatPercentageSummary": {
+      "home": {
+        "title": "Body Fat Percentage Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Body Fat Percentage Summary",
+        "createOrEditLabel": "Crear o editar Body Fat Percentage Summary",
+        "notFound": "Ningún Body Fat Percentage Summaries encontrado"
+      },
+      "created": "Un nuevo Body Fat Percentage Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Body Fat Percentage Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Body Fat Percentage Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Body Fat Percentage Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Body Fat Percentage Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

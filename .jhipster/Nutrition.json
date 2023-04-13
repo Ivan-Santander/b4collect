@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140212",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "nutrition",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mealType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "food",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "nutrients",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "Nutrition",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

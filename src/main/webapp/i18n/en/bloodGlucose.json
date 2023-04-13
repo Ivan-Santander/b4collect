@@ -1,0 +1,31 @@
+{
+  "b4CarecollectApp": {
+    "bloodGlucose": {
+      "home": {
+        "title": "Blood Glucoses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Blood Glucose",
+        "createOrEditLabel": "Create or edit a Blood Glucose",
+        "notFound": "No Blood Glucoses found"
+      },
+      "created": "A new Blood Glucose is created with identifier {{ param }}",
+      "updated": "A Blood Glucose is updated with identifier {{ param }}",
+      "deleted": "A Blood Glucose is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Blood Glucose {{ id }}?"
+      },
+      "detail": {
+        "title": "Blood Glucose"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldBloodGlucoseLevel": "Field Blood Glucose Level",
+      "fieldTemporalRelationToMeal": "Field Temporal Relation To Meal",
+      "fieldMealType": "Field Meal Type",
+      "fieldTemporalRelationToSleep": "Field Temporal Relation To Sleep",
+      "fieldBloodGlucoseSpecimenSource": "Field Blood Glucose Specimen Source",
+      "endTime": "End Time"
+    }
+  }
+}

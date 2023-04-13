@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "speedSummary": {
+      "home": {
+        "title": "Speed Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Speed Summary",
+        "createOrEditLabel": "Criar ou editar Speed Summary",
+        "notFound": "Nenhum Speed Summary encontrado"
+      },
+      "created": "Um novo Speed Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Speed Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Speed Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Speed Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Speed Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

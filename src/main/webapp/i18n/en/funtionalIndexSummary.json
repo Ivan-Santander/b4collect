@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "funtionalIndexSummary": {
+      "home": {
+        "title": "Funtional Index Summaries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Funtional Index Summary",
+        "createOrEditLabel": "Create or edit a Funtional Index Summary",
+        "notFound": "No Funtional Index Summaries found"
+      },
+      "created": "A new Funtional Index Summary is created with identifier {{ param }}",
+      "updated": "A Funtional Index Summary is updated with identifier {{ param }}",
+      "deleted": "A Funtional Index Summary is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Funtional Index Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Funtional Index Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldFuntionalIndexAverage": "Field Funtional Index Average",
+      "fieldFuntionalIndexMax": "Field Funtional Index Max",
+      "fieldFuntionalIndexMin": "Field Funtional Index Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

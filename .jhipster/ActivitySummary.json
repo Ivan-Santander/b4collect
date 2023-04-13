@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140222",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "activity_summary",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldActivity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldDuration",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldNumSegments",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "ActivitySummary",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

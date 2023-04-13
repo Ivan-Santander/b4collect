@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "powerSummary": {
+      "home": {
+        "title": "Power Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Power Summary",
+        "createOrEditLabel": "Crear o editar Power Summary",
+        "notFound": "Ningún Power Summaries encontrado"
+      },
+      "created": "Un nuevo Power Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Power Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Power Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Power Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Power Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

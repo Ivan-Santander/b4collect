@@ -1,0 +1,32 @@
+{
+  "b4CarecollectApp": {
+    "activityExercise": {
+      "home": {
+        "title": "Activity Exercises",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Activity Exercise",
+        "createOrEditLabel": "Crear o editar Activity Exercise",
+        "notFound": "Ningún Activity Exercises encontrado"
+      },
+      "created": "Un nuevo Activity Exercise ha sido creado con el identificador {{ param }}",
+      "updated": "Un Activity Exercise ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Activity Exercise ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Activity Exercise {{ id }}?"
+      },
+      "detail": {
+        "title": "Activity Exercise"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "exercise": "Exercise",
+      "repetitions": "Repetitions",
+      "typeResistence": "Type Resistence",
+      "resistenceKg": "Resistence Kg",
+      "duration": "Duration",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

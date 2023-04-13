@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "collectapp",
+    "slug": "collectapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.be4tech.collectapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "collectapp",
+    "extra": {
+      "eas": {
+        "projectId": "14ffaec0-f802-48f6-89a6-5312d2ef3390"
+      }
+    }
+  }
+}

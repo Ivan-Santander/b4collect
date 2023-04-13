@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "cyclingWheelRevolution": {
+      "home": {
+        "title": "Cycling Wheel Revolutions",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Cycling Wheel Revolution",
+        "createOrEditLabel": "Criar ou editar Cycling Wheel Revolution",
+        "notFound": "Nenhum Cycling Wheel Revolution encontrado"
+      },
+      "created": "Um novo Cycling Wheel Revolution foi criado com o identificador {{ param }}",
+      "updated": "Um Cycling Wheel Revolution foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Cycling Wheel Revolution foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Cycling Wheel Revolution {{ id }}?"
+      },
+      "detail": {
+        "title": "Cycling Wheel Revolution"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "revolutions": "Revolutions",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+org.springframework.test.context.ContextCustomizerFactory = com.be4tech.b4carecollect.config.TestContainersSpringContextCustomizerFactory

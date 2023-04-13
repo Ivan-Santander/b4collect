@@ -1,0 +1,49 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152714",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "weight_summary",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldAverage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "WeightSummary",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

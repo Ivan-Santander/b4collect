@@ -1,0 +1,69 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152720",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "oxygen_saturation_summary",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldOxigenSaturationAverage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldOxigenSaturationMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldOxigenSaturationMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldSuplementalOxigenFlowRateAverage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldSuplementalOxigenFlowRateMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldSuplementalOxigenFlowRateMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldOxigenTherapyAdministrationMode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldOxigenSaturationMode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldOxigenSaturationMeasurementMethod",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "OxygenSaturationSummary",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

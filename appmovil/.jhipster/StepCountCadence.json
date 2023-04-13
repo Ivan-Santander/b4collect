@@ -1,0 +1,41 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152651",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "step_count_cadence",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rpm",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "StepCountCadence",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

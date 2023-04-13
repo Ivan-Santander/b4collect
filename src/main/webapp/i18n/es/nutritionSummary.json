@@ -1,0 +1,29 @@
+{
+  "b4CarecollectApp": {
+    "nutritionSummary": {
+      "home": {
+        "title": "Nutrition Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Nutrition Summary",
+        "createOrEditLabel": "Crear o editar Nutrition Summary",
+        "notFound": "Ningún Nutrition Summaries encontrado"
+      },
+      "created": "Un nuevo Nutrition Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Nutrition Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Nutrition Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Nutrition Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Nutrition Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "mealType": "Meal Type",
+      "nutrient": "Nutrient",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

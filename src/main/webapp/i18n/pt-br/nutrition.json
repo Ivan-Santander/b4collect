@@ -1,0 +1,29 @@
+{
+  "b4CarecollectApp": {
+    "nutrition": {
+      "home": {
+        "title": "Nutritions",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Nutrition",
+        "createOrEditLabel": "Criar ou editar Nutrition",
+        "notFound": "Nenhum Nutrition encontrado"
+      },
+      "created": "Um novo Nutrition foi criado com o identificador {{ param }}",
+      "updated": "Um Nutrition foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Nutrition foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Nutrition {{ id }}?"
+      },
+      "detail": {
+        "title": "Nutrition"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "mealType": "Meal Type",
+      "food": "Food",
+      "nutrients": "Nutrients",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,398 @@
+entity CaloriesBMR{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    calorias Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity CaloriesExpended{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    calorias Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity CiclingPedalingCadence{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    rpm Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity HeartMinutes{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    severity Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity ActiveMinutes{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    calorias Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity PoweSample{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    vatios Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity StepCountCadence{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    rpm Integer
+    startTime Instant,
+    endTime Instant
+}
+
+entity StepCountDelta{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    steps Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity ActivityExercise{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    exercise String,
+    repetitions Integer,
+    typeResistence String,
+    resistenceKg Float,
+    duration Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity CyclingWheelRevolution{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	rpm Float,
+    endTime Instant
+}
+
+entity CyclingWheelRevolution{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	revolutions Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity DistanceDelta{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	distance Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity LocationSample{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	latitud Float,
+    longitud Float,
+    accuracy Float,
+    altitud Float,
+    endTime Instant
+}
+
+entity Speed{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	speed Float,
+    endTime Instant
+}
+
+entity Nutrition{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	mealType Integer,
+    food TextBlob,
+    nutrients TextBlob,
+    endTime Instant
+}
+
+entity BloodGlucose{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldBloodGlucoseLevel Float,
+    fieldTemporalRelationToMeal Integer,
+    fieldMealType Integer,
+    fieldTemporalRelationToSleep Integer,
+    fieldBloodGlucoseSpecimenSource Integer,
+    endTime Instant
+}
+
+entity BloodPressure{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldBloodPressureSystolic Float,
+    fieldBloodPressureDiastolic Float,
+    fieldBodyPosition String,
+    fieldBloodPressureMeasureLocation Integer,
+    endTime Instant
+}
+
+entity BodyFatPercentage{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldPorcentage Float,
+    endTime Instant
+}
+
+entity BodyTemperature{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldBodyTemperature Float,
+    fieldBodyTemperatureMeasureLocation Integer,
+    endTime Instant
+}
+
+entity HeartRateBpm{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	ppm Float,
+    endTime Instant
+}
+
+entity Height{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldHeight Float,
+    endTime Instant
+}
+
+entity OxygenSaturation{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldOxigenSaturation Float,
+    fieldSuplementalOxigenFlowRate Float,
+    fieldOxigenTherapyAdministrationMode Integer,
+    fieldOxigenSaturationMode Integer,
+    fieldOxigenSaturationMeasurementMethod Integer
+    endTime Instant
+}
+
+entity SleepSegment{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldSleepSegmentType Integer,
+    fieldBloodGlucoseSpecimenSource Integer,
+    startTime Instant,
+    endTime Instant
+}
+
+entity Weight{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldWeight Float,
+    endTime Instant
+}
+
+entity ActivitySummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldActivity Integer,
+    fieldDuration Integer,
+    fieldNumSegments Integer,
+	startTime Instant,
+    endTime Instant
+}
+
+entity CaloriesBmrSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity PowerSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity BodyFatPercentageSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity HeartRateSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity HeightSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity WeightSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity LocationSample{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	latitudMin Float,
+    longitudMin Float,
+    latitudMax Float,
+    longitudMax Float,
+    accuracy Float,
+    altitud Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity SpeedSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+	startTime Instant,
+    endTime Instant
+}
+
+entity NutritionSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	mealType TextBlob,
+    nutrient TextBlob,
+	startTime Instant,
+    endTime Instant
+}
+
+entity BloodGlucoseSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+    intervalFood Integer,
+    mealType TextBlob,
+    relationTemporalSleep Integer,
+    sampleSource Integer,
+	startTime Instant,
+    endTime Instant
+}
+
+entity BloodPressureSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldSistolicAverage Float,
+    fieldSistolicMax Float,
+    fieldSistolicMin Float,
+    fieldDiasatolicAverage Float,
+    fieldDiastolicMax Float,
+    fieldDiastolicMin Float
+    bodyPosition Integer,
+    measurementLocation Integer,
+	startTime Instant,
+    endTime Instant
+}
+
+entity TemperatureSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAverage Float,
+    fieldMax Float,
+    fieldMin Float,
+    measurementLocation Integer,
+	startTime Instant,
+    endTime Instant
+}
+
+entity OxygenSaturationSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldOxigenSaturationAverage Float,
+    fieldOxigenSaturationMax Float,
+    fieldOxigenSaturationMin Float,
+    fieldSuplementalOxigenFlowRateAverage Float,
+    fieldSuplementalOxigenFlowRateMax Float,
+    fieldSuplementalOxigenFlowRateMin Float,
+    fieldOxigenTherapyAdministrationMode Integer,
+    fieldOxigenSaturationMode Integer,
+    fieldOxigenSaturationMeasurementMethod Integer
+    endTime Instant
+}
+paginate  * with infinite-scroll
+filter *

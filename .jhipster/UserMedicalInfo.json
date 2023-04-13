@@ -1,0 +1,72 @@
+{
+  "applications": "*",
+  "changelogDate": "20230410125104",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "user_medical_info",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hypertension",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "highGlucose",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "hiabetes",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "totalCholesterol",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "hdlCholesterol",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "medicalMainCondition",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicalSecundaryCondition",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicalMainMedication",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicalSecundaryMedication",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicalScore",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "UserMedicalInfo",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

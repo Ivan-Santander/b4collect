@@ -1,0 +1,36 @@
+{
+  "b4CarecollectApp": {
+    "userMedicalInfo": {
+      "home": {
+        "title": "User Medical Infos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo User Medical Info",
+        "createOrEditLabel": "Criar ou editar User Medical Info",
+        "notFound": "Nenhum User Medical Info encontrado"
+      },
+      "created": "Um novo User Medical Info foi criado com o identificador {{ param }}",
+      "updated": "Um User Medical Info foi atualizado com o identificador {{ param }}",
+      "deleted": "Um User Medical Info foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir User Medical Info {{ id }}?"
+      },
+      "detail": {
+        "title": "User Medical Info"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "hypertension": "Hypertension",
+      "highGlucose": "High Glucose",
+      "hiabetes": "Hiabetes",
+      "totalCholesterol": "Total Cholesterol",
+      "hdlCholesterol": "Hdl Cholesterol",
+      "medicalMainCondition": "Medical Main Condition",
+      "medicalSecundaryCondition": "Medical Secundary Condition",
+      "medicalMainMedication": "Medical Main Medication",
+      "medicalSecundaryMedication": "Medical Secundary Medication",
+      "medicalScore": "Medical Score",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "caloriesBmrSummary": {
+      "home": {
+        "title": "Calories Bmr Summaries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Calories Bmr Summary",
+        "createOrEditLabel": "Create or edit a Calories Bmr Summary",
+        "notFound": "No Calories Bmr Summaries found"
+      },
+      "created": "A new Calories Bmr Summary is created with identifier {{ param }}",
+      "updated": "A Calories Bmr Summary is updated with identifier {{ param }}",
+      "deleted": "A Calories Bmr Summary is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Calories Bmr Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Calories Bmr Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

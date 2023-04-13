@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "distanceDelta": {
+      "home": {
+        "title": "Distance Deltas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Distance Delta",
+        "createOrEditLabel": "Crear o editar Distance Delta",
+        "notFound": "Ningún Distance Deltas encontrado"
+      },
+      "created": "Un nuevo Distance Delta ha sido creado con el identificador {{ param }}",
+      "updated": "Un Distance Delta ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Distance Delta ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Distance Delta {{ id }}?"
+      },
+      "detail": {
+        "title": "Distance Delta"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "distance": "Distance",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

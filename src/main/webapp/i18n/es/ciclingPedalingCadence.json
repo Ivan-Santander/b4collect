@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "ciclingPedalingCadence": {
+      "home": {
+        "title": "Cicling Pedaling Cadences",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Cicling Pedaling Cadence",
+        "createOrEditLabel": "Crear o editar Cicling Pedaling Cadence",
+        "notFound": "Ningún Cicling Pedaling Cadences encontrado"
+      },
+      "created": "Un nuevo Cicling Pedaling Cadence ha sido creado con el identificador {{ param }}",
+      "updated": "Un Cicling Pedaling Cadence ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Cicling Pedaling Cadence ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Cicling Pedaling Cadence {{ id }}?"
+      },
+      "detail": {
+        "title": "Cicling Pedaling Cadence"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "rpm": "Rpm",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

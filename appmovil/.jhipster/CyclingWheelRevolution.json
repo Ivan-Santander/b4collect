@@ -1,0 +1,41 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152654",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "cycling_wheel_revolution",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "revolutions",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "CyclingWheelRevolution",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

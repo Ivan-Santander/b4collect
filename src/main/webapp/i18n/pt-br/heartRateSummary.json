@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "heartRateSummary": {
+      "home": {
+        "title": "Heart Rate Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Heart Rate Summary",
+        "createOrEditLabel": "Criar ou editar Heart Rate Summary",
+        "notFound": "Nenhum Heart Rate Summary encontrado"
+      },
+      "created": "Um novo Heart Rate Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Heart Rate Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Heart Rate Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Heart Rate Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Heart Rate Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

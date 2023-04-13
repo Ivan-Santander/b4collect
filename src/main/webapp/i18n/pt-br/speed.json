@@ -1,0 +1,27 @@
+{
+  "b4CarecollectApp": {
+    "speed": {
+      "home": {
+        "title": "Speeds",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Speed",
+        "createOrEditLabel": "Criar ou editar Speed",
+        "notFound": "Nenhum Speed encontrado"
+      },
+      "created": "Um novo Speed foi criado com o identificador {{ param }}",
+      "updated": "Um Speed foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Speed foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Speed {{ id }}?"
+      },
+      "detail": {
+        "title": "Speed"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "speed": "Speed",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "stepCountDelta": {
+      "home": {
+        "title": "Step Count Deltas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Step Count Delta",
+        "createOrEditLabel": "Criar ou editar Step Count Delta",
+        "notFound": "Nenhum Step Count Delta encontrado"
+      },
+      "created": "Um novo Step Count Delta foi criado com o identificador {{ param }}",
+      "updated": "Um Step Count Delta foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Step Count Delta foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Step Count Delta {{ id }}?"
+      },
+      "detail": {
+        "title": "Step Count Delta"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "steps": "Steps",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

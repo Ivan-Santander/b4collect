@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "heartMinutes": {
+      "home": {
+        "title": "Heart Minutes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Heart Minutes",
+        "createOrEditLabel": "Crear o editar Heart Minutes",
+        "notFound": "Ningún Heart Minutes encontrado"
+      },
+      "created": "Un nuevo Heart Minutes ha sido creado con el identificador {{ param }}",
+      "updated": "Un Heart Minutes ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Heart Minutes ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Heart Minutes {{ id }}?"
+      },
+      "detail": {
+        "title": "Heart Minutes"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "severity": "Severity",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

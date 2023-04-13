@@ -1,0 +1,69 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152718",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "blood_pressure_summary",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldSistolicAverage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldSistolicMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldSistolicMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldDiasatolicAverage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldDiastolicMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldDiastolicMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "bodyPosition",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "measurementLocation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BloodPressureSummary",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="floatType" value="float4" dbms="h2"/>
+    <property name="uuidType" value="uuid" dbms="h2"/>
+    <property name="datetimeType" value="datetime" dbms="h2"/>
+    <property name="clobType" value="longvarchar" dbms="h2"/>
+    <property name="blobType" value="blob" dbms="h2"/>
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+    <property name="floatType" value="float4" dbms="postgresql"/>
+    <property name="clobType" value="longvarchar" dbms="postgresql"/>
+    <property name="blobType" value="bytea" dbms="postgresql"/>
+    <property name="uuidType" value="uuid" dbms="postgresql"/>
+    <property name="datetimeType" value="datetime" dbms="postgresql"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140159_added_entity_CaloriesBMR.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140200_added_entity_CaloriesExpended.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140201_added_entity_CiclingPedalingCadence.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140202_added_entity_HeartMinutes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140203_added_entity_ActiveMinutes.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140204_added_entity_PoweSample.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140205_added_entity_StepCountCadence.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140206_added_entity_StepCountDelta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140207_added_entity_ActivityExercise.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140208_added_entity_CyclingWheelRevolution.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140209_added_entity_DistanceDelta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140210_added_entity_LocationSample.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140211_added_entity_Speed.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140212_added_entity_Nutrition.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140213_added_entity_BloodGlucose.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140214_added_entity_BloodPressure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140215_added_entity_BodyFatPercentage.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140216_added_entity_BodyTemperature.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140217_added_entity_HeartRateBpm.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140218_added_entity_Height.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140219_added_entity_OxygenSaturation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140220_added_entity_SleepSegment.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140221_added_entity_Weight.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140222_added_entity_ActivitySummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140223_added_entity_CaloriesBmrSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140224_added_entity_PowerSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140225_added_entity_BodyFatPercentageSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140226_added_entity_HeartRateSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140227_added_entity_HeightSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140228_added_entity_WeightSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140229_added_entity_SpeedSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140230_added_entity_NutritionSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140231_added_entity_BloodGlucoseSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140232_added_entity_BloodPressureSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140233_added_entity_TemperatureSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230324140234_added_entity_OxygenSaturationSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125102_added_entity_FuntionalIndex.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125103_added_entity_UserDemographics.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125104_added_entity_UserMedicalInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125105_added_entity_UserBodyInfo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125106_added_entity_MentalHealth.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125107_added_entity_AlarmRiskIndexSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125108_added_entity_SleepScores.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125109_added_entity_FuntionalIndexSummary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230410125110_added_entity_MentalHealthSummary.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

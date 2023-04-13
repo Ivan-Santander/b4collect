@@ -1,0 +1,27 @@
+{
+  "b4CarecollectApp": {
+    "bodyFatPercentage": {
+      "home": {
+        "title": "Body Fat Percentages",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Body Fat Percentage",
+        "createOrEditLabel": "Criar ou editar Body Fat Percentage",
+        "notFound": "Nenhum Body Fat Percentage encontrado"
+      },
+      "created": "Um novo Body Fat Percentage foi criado com o identificador {{ param }}",
+      "updated": "Um Body Fat Percentage foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Body Fat Percentage foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Body Fat Percentage {{ id }}?"
+      },
+      "detail": {
+        "title": "Body Fat Percentage"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldPorcentage": "Field Porcentage",
+      "endTime": "End Time"
+    }
+  }
+}

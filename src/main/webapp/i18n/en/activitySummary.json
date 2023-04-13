@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "activitySummary": {
+      "home": {
+        "title": "Activity Summaries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Activity Summary",
+        "createOrEditLabel": "Create or edit a Activity Summary",
+        "notFound": "No Activity Summaries found"
+      },
+      "created": "A new Activity Summary is created with identifier {{ param }}",
+      "updated": "A Activity Summary is updated with identifier {{ param }}",
+      "deleted": "A Activity Summary is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Activity Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Activity Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldActivity": "Field Activity",
+      "fieldDuration": "Field Duration",
+      "fieldNumSegments": "Field Num Segments",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

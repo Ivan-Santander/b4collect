@@ -1,0 +1,31 @@
+{
+  "b4CarecollectApp": {
+    "temperatureSummary": {
+      "home": {
+        "title": "Temperature Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Temperature Summary",
+        "createOrEditLabel": "Crear o editar Temperature Summary",
+        "notFound": "Ningún Temperature Summaries encontrado"
+      },
+      "created": "Un nuevo Temperature Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Temperature Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Temperature Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Temperature Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Temperature Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "measurementLocation": "Measurement Location",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

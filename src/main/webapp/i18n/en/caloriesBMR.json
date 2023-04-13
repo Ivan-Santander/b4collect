@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "caloriesBMR": {
+      "home": {
+        "title": "Calories BMRS",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Calories BMR",
+        "createOrEditLabel": "Create or edit a Calories BMR",
+        "notFound": "No Calories BMRS found"
+      },
+      "created": "A new Calories BMR is created with identifier {{ param }}",
+      "updated": "A Calories BMR is updated with identifier {{ param }}",
+      "deleted": "A Calories BMR is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Calories BMR {{ id }}?"
+      },
+      "detail": {
+        "title": "Calories BMR"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "calorias": "Calorias",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

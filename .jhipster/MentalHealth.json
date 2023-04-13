@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20230410125106",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "mental_health",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emotionDescription",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emotionValue",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "mentalHealthScore",
+      "fieldType": "Float"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "MentalHealth",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

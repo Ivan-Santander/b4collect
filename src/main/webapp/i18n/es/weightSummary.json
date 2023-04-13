@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "weightSummary": {
+      "home": {
+        "title": "Weight Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Weight Summary",
+        "createOrEditLabel": "Crear o editar Weight Summary",
+        "notFound": "Ningún Weight Summaries encontrado"
+      },
+      "created": "Un nuevo Weight Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Weight Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Weight Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Weight Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Weight Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "activeMinutes": {
+      "home": {
+        "title": "Active Minutes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Active Minutes",
+        "createOrEditLabel": "Crear o editar Active Minutes",
+        "notFound": "Ningún Active Minutes encontrado"
+      },
+      "created": "Un nuevo Active Minutes ha sido creado con el identificador {{ param }}",
+      "updated": "Un Active Minutes ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Active Minutes ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Active Minutes {{ id }}?"
+      },
+      "detail": {
+        "title": "Active Minutes"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "calorias": "Calorias",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

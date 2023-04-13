@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "caloriesBMR": {
+      "home": {
+        "title": "Calories BMRS",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Calories BMR",
+        "createOrEditLabel": "Criar ou editar Calories BMR",
+        "notFound": "Nenhum Calories BMR encontrado"
+      },
+      "created": "Um novo Calories BMR foi criado com o identificador {{ param }}",
+      "updated": "Um Calories BMR foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Calories BMR foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Calories BMR {{ id }}?"
+      },
+      "detail": {
+        "title": "Calories BMR"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "calorias": "Calorias",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

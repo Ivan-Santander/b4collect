@@ -1,0 +1,36 @@
+{
+  "b4CarecollectApp": {
+    "userDemographics": {
+      "home": {
+        "title": "User Demographics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Demographics",
+        "createOrEditLabel": "Create or edit a User Demographics",
+        "notFound": "No User Demographics found"
+      },
+      "created": "A new User Demographics is created with identifier {{ param }}",
+      "updated": "A User Demographics is updated with identifier {{ param }}",
+      "deleted": "A User Demographics is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Demographics {{ id }}?"
+      },
+      "detail": {
+        "title": "User Demographics"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "gender": "Gender",
+      "dateOfBird": "Date Of Bird",
+      "age": "Age",
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "ethnicity": "Ethnicity",
+      "income": "Income",
+      "maritalStatus": "Marital Status",
+      "education": "Education",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "b4CarecollectApp": {
+    "locationSample": {
+      "home": {
+        "title": "Location Samples",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Location Sample",
+        "createOrEditLabel": "Criar ou editar Location Sample",
+        "notFound": "Nenhum Location Sample encontrado"
+      },
+      "created": "Um novo Location Sample foi criado com o identificador {{ param }}",
+      "updated": "Um Location Sample foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Location Sample foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Location Sample {{ id }}?"
+      },
+      "detail": {
+        "title": "Location Sample"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "latitudMin": "Latitud Min",
+      "longitudMin": "Longitud Min",
+      "latitudMax": "Latitud Max",
+      "longitudMax": "Longitud Max",
+      "accuracy": "Accuracy",
+      "altitud": "Altitud",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

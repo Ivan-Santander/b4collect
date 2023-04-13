@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140216",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "body_temperature",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldBodyTemperature",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldBodyTemperatureMeasureLocation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BodyTemperature",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

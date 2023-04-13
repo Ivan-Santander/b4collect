@@ -1,0 +1,29 @@
+{
+  "b4CarecollectApp": {
+    "sleepSegment": {
+      "home": {
+        "title": "Sleep Segments",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Sleep Segment",
+        "createOrEditLabel": "Criar ou editar Sleep Segment",
+        "notFound": "Nenhum Sleep Segment encontrado"
+      },
+      "created": "Um novo Sleep Segment foi criado com o identificador {{ param }}",
+      "updated": "Um Sleep Segment foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Sleep Segment foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Sleep Segment {{ id }}?"
+      },
+      "detail": {
+        "title": "Sleep Segment"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldSleepSegmentType": "Field Sleep Segment Type",
+      "fieldBloodGlucoseSpecimenSource": "Field Blood Glucose Specimen Source",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "applications": "*",
+  "changelogDate": "20230410125105",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "user_body_info",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "waistCircumference",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "hipCircumference",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "chestCircumference",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "boneCompositionPercentaje",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "muscleCompositionPercentaje",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "smoker",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "waightKg",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "heightCm",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "bodyHealthScore",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "cardiovascularRisk",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "UserBodyInfo",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

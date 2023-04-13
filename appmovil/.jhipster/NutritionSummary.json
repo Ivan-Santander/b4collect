@@ -1,0 +1,47 @@
+{
+  "angularJSSuffix": "",
+  "applications": "*",
+  "changelogDate": "20230331152716",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "nutrition_summary",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mealType",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "nutrient",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "NutritionSummary",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

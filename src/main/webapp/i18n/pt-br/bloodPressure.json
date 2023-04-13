@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "bloodPressure": {
+      "home": {
+        "title": "Blood Pressures",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Blood Pressure",
+        "createOrEditLabel": "Criar ou editar Blood Pressure",
+        "notFound": "Nenhum Blood Pressure encontrado"
+      },
+      "created": "Um novo Blood Pressure foi criado com o identificador {{ param }}",
+      "updated": "Um Blood Pressure foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Blood Pressure foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Blood Pressure {{ id }}?"
+      },
+      "detail": {
+        "title": "Blood Pressure"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldBloodPressureSystolic": "Field Blood Pressure Systolic",
+      "fieldBloodPressureDiastolic": "Field Blood Pressure Diastolic",
+      "fieldBodyPosition": "Field Body Position",
+      "fieldBloodPressureMeasureLocation": "Field Blood Pressure Measure Location",
+      "endTime": "End Time"
+    }
+  }
+}

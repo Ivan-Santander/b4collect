@@ -1,0 +1,33 @@
+{
+  "b4CarecollectApp": {
+    "mentalHealthSummary": {
+      "home": {
+        "title": "Mental Health Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Mental Health Summary",
+        "createOrEditLabel": "Criar ou editar Mental Health Summary",
+        "notFound": "Nenhum Mental Health Summary encontrado"
+      },
+      "created": "Um novo Mental Health Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Mental Health Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Mental Health Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Mental Health Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Mental Health Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "emotionDescripMain": "Emotion Descrip Main",
+      "emotionDescripSecond": "Emotion Descrip Second",
+      "fieldMentalHealthAverage": "Field Mental Health Average",
+      "fieldMentalHealthMax": "Field Mental Health Max",
+      "fieldMentalHealthMin": "Field Mental Health Min",
+      "scoreMentalRisk": "Score Mental Risk",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

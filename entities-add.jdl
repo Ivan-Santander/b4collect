@@ -1,0 +1,125 @@
+entity FuntionalIndex{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    BodyHealthScore Integer,
+    MentalHealthScore Integer,
+    SleepHealthScore Integer,
+    funtionalIndex Integer,
+    alarmRiskScore Integer,
+    startTime Instant
+}
+
+entity UserDemographics {
+    id UUID,
+	usuarioId String,
+    empresaId String,
+    gender String,
+    dateOfBird LocalDate,
+    age Integer,
+    country String,
+    state String,
+    city String,
+    ethnicity String,
+    income String,
+    maritalStatus String,
+    education String,
+    endTime Instant
+
+}
+
+entity UserMedicalInfo {
+    id UUID,
+	usuarioId String,
+    empresaId String,
+    hypertension Boolean,
+    highGlucose Boolean,
+    hiabetes Boolean,
+    totalCholesterol Float,
+    hdlCholesterol Float,
+    medicalMainCondition String,
+    medicalSecundaryCondition String,
+    medicalMainMedication String,  
+    medicalSecundaryMedication String,
+    medicalScore Integer,
+    endTime Instant
+}
+
+entity UserBodyInfo {
+    id UUID,
+	usuarioId String,
+    empresaId String,
+    waistCircumference Float,
+    hipCircumference Float,
+    chestCircumference Float,
+    boneCompositionPercentaje Float,
+    muscleCompositionPercentaje Float,
+    smoker Boolean,
+    waightKg Float,
+    heightCm Float,
+    bodyHealthScore Float,
+    cardiovascularRisk Integer
+}
+
+entity MentalHealth {
+    id UUID,
+	usuarioId String,
+    empresaId String,
+    emotionDescription String,
+    emotionValue Float,
+    startDate Instant,
+    endDate Instant,
+    mentalHealthScore Float
+}
+
+entity AlarmRiskIndexSummary {
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldAlarmRiskAverage Float,
+    fieldAlarmRiskMax Float,
+    fieldAlarmRiskMin Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity SleepScores {
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    sleepQualityRatingScore Integer,
+    sleepEfficiencyScore Integer,
+    sleepGooalSecondsScore Integer,
+    sleepContinuityScore Integer,
+    sleepContinuityRating Integer
+}
+
+
+
+entity FuntionalIndexSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+	fieldFuntionalIndexAverage Float,
+    fieldFuntionalIndexMax Float,
+    fieldFuntionalIndexMin Float,
+    startTime Instant,
+    endTime Instant
+}
+
+entity MentalHealthSummary{
+	id UUID,
+	usuarioId String,
+    empresaId String,
+    emotionDescripMain String,
+    emotionDescripSecond String,
+	fieldMentalHealthAverage Float,
+    fieldMentalHealthMax Float,
+    fieldMentalHealthMin Float,
+    ScoreMentalRisk Float, 
+    startTime Instant,
+    endTime Instant
+}
+
+paginate  * with infinite-scroll
+filter *

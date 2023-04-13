@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "alarmRiskIndexSummary": {
+      "home": {
+        "title": "Alarm Risk Index Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Alarm Risk Index Summary",
+        "createOrEditLabel": "Criar ou editar Alarm Risk Index Summary",
+        "notFound": "Nenhum Alarm Risk Index Summary encontrado"
+      },
+      "created": "Um novo Alarm Risk Index Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Alarm Risk Index Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Alarm Risk Index Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Alarm Risk Index Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Alarm Risk Index Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAlarmRiskAverage": "Field Alarm Risk Average",
+      "fieldAlarmRiskMax": "Field Alarm Risk Max",
+      "fieldAlarmRiskMin": "Field Alarm Risk Min",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

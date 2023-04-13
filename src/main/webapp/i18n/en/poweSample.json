@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "poweSample": {
+      "home": {
+        "title": "Powe Samples",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Powe Sample",
+        "createOrEditLabel": "Create or edit a Powe Sample",
+        "notFound": "No Powe Samples found"
+      },
+      "created": "A new Powe Sample is created with identifier {{ param }}",
+      "updated": "A Powe Sample is updated with identifier {{ param }}",
+      "deleted": "A Powe Sample is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Powe Sample {{ id }}?"
+      },
+      "detail": {
+        "title": "Powe Sample"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "vatios": "Vatios",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

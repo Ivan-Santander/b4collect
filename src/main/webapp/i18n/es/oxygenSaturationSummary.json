@@ -1,0 +1,35 @@
+{
+  "b4CarecollectApp": {
+    "oxygenSaturationSummary": {
+      "home": {
+        "title": "Oxygen Saturation Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Oxygen Saturation Summary",
+        "createOrEditLabel": "Crear o editar Oxygen Saturation Summary",
+        "notFound": "Ningún Oxygen Saturation Summaries encontrado"
+      },
+      "created": "Un nuevo Oxygen Saturation Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Oxygen Saturation Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Oxygen Saturation Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Oxygen Saturation Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Oxygen Saturation Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldOxigenSaturationAverage": "Field Oxigen Saturation Average",
+      "fieldOxigenSaturationMax": "Field Oxigen Saturation Max",
+      "fieldOxigenSaturationMin": "Field Oxigen Saturation Min",
+      "fieldSuplementalOxigenFlowRateAverage": "Field Suplemental Oxigen Flow Rate Average",
+      "fieldSuplementalOxigenFlowRateMax": "Field Suplemental Oxigen Flow Rate Max",
+      "fieldSuplementalOxigenFlowRateMin": "Field Suplemental Oxigen Flow Rate Min",
+      "fieldOxigenTherapyAdministrationMode": "Field Oxigen Therapy Administration Mode",
+      "fieldOxigenSaturationMode": "Field Oxigen Saturation Mode",
+      "fieldOxigenSaturationMeasurementMethod": "Field Oxigen Saturation Measurement Method",
+      "endTime": "End Time"
+    }
+  }
+}

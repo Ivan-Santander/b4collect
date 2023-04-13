@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "bodyTemperature": {
+      "home": {
+        "title": "Body Temperatures",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Body Temperature",
+        "createOrEditLabel": "Create or edit a Body Temperature",
+        "notFound": "No Body Temperatures found"
+      },
+      "created": "A new Body Temperature is created with identifier {{ param }}",
+      "updated": "A Body Temperature is updated with identifier {{ param }}",
+      "deleted": "A Body Temperature is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Body Temperature {{ id }}?"
+      },
+      "detail": {
+        "title": "Body Temperature"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldBodyTemperature": "Field Body Temperature",
+      "fieldBodyTemperatureMeasureLocation": "Field Body Temperature Measure Location",
+      "endTime": "End Time"
+    }
+  }
+}

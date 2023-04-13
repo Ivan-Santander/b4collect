@@ -1,0 +1,34 @@
+{
+  "b4CarecollectApp": {
+    "bloodGlucoseSummary": {
+      "home": {
+        "title": "Blood Glucose Summaries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Blood Glucose Summary",
+        "createOrEditLabel": "Crear o editar Blood Glucose Summary",
+        "notFound": "Ningún Blood Glucose Summaries encontrado"
+      },
+      "created": "Un nuevo Blood Glucose Summary ha sido creado con el identificador {{ param }}",
+      "updated": "Un Blood Glucose Summary ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Blood Glucose Summary ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Blood Glucose Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Blood Glucose Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldAverage": "Field Average",
+      "fieldMax": "Field Max",
+      "fieldMin": "Field Min",
+      "intervalFood": "Interval Food",
+      "mealType": "Meal Type",
+      "relationTemporalSleep": "Relation Temporal Sleep",
+      "sampleSource": "Sample Source",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

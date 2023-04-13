@@ -1,0 +1,28 @@
+{
+  "b4CarecollectApp": {
+    "stepCountCadence": {
+      "home": {
+        "title": "Step Count Cadences",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Step Count Cadence",
+        "createOrEditLabel": "Criar ou editar Step Count Cadence",
+        "notFound": "Nenhum Step Count Cadence encontrado"
+      },
+      "created": "Um novo Step Count Cadence foi criado com o identificador {{ param }}",
+      "updated": "Um Step Count Cadence foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Step Count Cadence foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Step Count Cadence {{ id }}?"
+      },
+      "detail": {
+        "title": "Step Count Cadence"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "rpm": "Rpm",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

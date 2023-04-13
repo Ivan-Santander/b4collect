@@ -1,0 +1,31 @@
+{
+  "b4CarecollectApp": {
+    "funtionalIndex": {
+      "home": {
+        "title": "Funtional Indices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Funtional Index",
+        "createOrEditLabel": "Create or edit a Funtional Index",
+        "notFound": "No Funtional Indices found"
+      },
+      "created": "A new Funtional Index is created with identifier {{ param }}",
+      "updated": "A Funtional Index is updated with identifier {{ param }}",
+      "deleted": "A Funtional Index is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Funtional Index {{ id }}?"
+      },
+      "detail": {
+        "title": "Funtional Index"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "bodyHealthScore": "Body Health Score",
+      "mentalHealthScore": "Mental Health Score",
+      "sleepHealthScore": "Sleep Health Score",
+      "funtionalIndex": "Funtional Index",
+      "alarmRiskScore": "Alarm Risk Score",
+      "startTime": "Start Time"
+    }
+  }
+}

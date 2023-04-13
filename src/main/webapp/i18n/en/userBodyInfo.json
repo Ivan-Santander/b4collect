@@ -1,0 +1,35 @@
+{
+  "b4CarecollectApp": {
+    "userBodyInfo": {
+      "home": {
+        "title": "User Body Infos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Body Info",
+        "createOrEditLabel": "Create or edit a User Body Info",
+        "notFound": "No User Body Infos found"
+      },
+      "created": "A new User Body Info is created with identifier {{ param }}",
+      "updated": "A User Body Info is updated with identifier {{ param }}",
+      "deleted": "A User Body Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Body Info {{ id }}?"
+      },
+      "detail": {
+        "title": "User Body Info"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "waistCircumference": "Waist Circumference",
+      "hipCircumference": "Hip Circumference",
+      "chestCircumference": "Chest Circumference",
+      "boneCompositionPercentaje": "Bone Composition Percentaje",
+      "muscleCompositionPercentaje": "Muscle Composition Percentaje",
+      "smoker": "Smoker",
+      "waightKg": "Waight Kg",
+      "heightCm": "Height Cm",
+      "bodyHealthScore": "Body Health Score",
+      "cardiovascularRisk": "Cardiovascular Risk"
+    }
+  }
+}

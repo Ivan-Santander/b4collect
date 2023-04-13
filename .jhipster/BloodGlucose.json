@@ -1,0 +1,52 @@
+{
+  "applications": "*",
+  "changelogDate": "20230324140213",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "blood_glucose",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "usuarioId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fieldBloodGlucoseLevel",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "fieldTemporalRelationToMeal",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldMealType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldTemporalRelationToSleep",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fieldBloodGlucoseSpecimenSource",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": true,
+  "name": "BloodGlucose",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,35 @@
+{
+  "b4CarecollectApp": {
+    "bloodPressureSummary": {
+      "home": {
+        "title": "Blood Pressure Summaries",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Blood Pressure Summary",
+        "createOrEditLabel": "Criar ou editar Blood Pressure Summary",
+        "notFound": "Nenhum Blood Pressure Summary encontrado"
+      },
+      "created": "Um novo Blood Pressure Summary foi criado com o identificador {{ param }}",
+      "updated": "Um Blood Pressure Summary foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Blood Pressure Summary foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Blood Pressure Summary {{ id }}?"
+      },
+      "detail": {
+        "title": "Blood Pressure Summary"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldSistolicAverage": "Field Sistolic Average",
+      "fieldSistolicMax": "Field Sistolic Max",
+      "fieldSistolicMin": "Field Sistolic Min",
+      "fieldDiasatolicAverage": "Field Diasatolic Average",
+      "fieldDiastolicMax": "Field Diastolic Max",
+      "fieldDiastolicMin": "Field Diastolic Min",
+      "bodyPosition": "Body Position",
+      "measurementLocation": "Measurement Location",
+      "startTime": "Start Time",
+      "endTime": "End Time"
+    }
+  }
+}

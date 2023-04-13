@@ -1,0 +1,31 @@
+{
+  "b4CarecollectApp": {
+    "oxygenSaturation": {
+      "home": {
+        "title": "Oxygen Saturations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Oxygen Saturation",
+        "createOrEditLabel": "Create or edit a Oxygen Saturation",
+        "notFound": "No Oxygen Saturations found"
+      },
+      "created": "A new Oxygen Saturation is created with identifier {{ param }}",
+      "updated": "A Oxygen Saturation is updated with identifier {{ param }}",
+      "deleted": "A Oxygen Saturation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Oxygen Saturation {{ id }}?"
+      },
+      "detail": {
+        "title": "Oxygen Saturation"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldOxigenSaturation": "Field Oxigen Saturation",
+      "fieldSuplementalOxigenFlowRate": "Field Suplemental Oxigen Flow Rate",
+      "fieldOxigenTherapyAdministrationMode": "Field Oxigen Therapy Administration Mode",
+      "fieldOxigenSaturationMode": "Field Oxigen Saturation Mode",
+      "fieldOxigenSaturationMeasurementMethod": "Field Oxigen Saturation Measurement Method",
+      "endTime": "End Time"
+    }
+  }
+}

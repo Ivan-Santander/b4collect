@@ -1,0 +1,27 @@
+{
+  "b4CarecollectApp": {
+    "height": {
+      "home": {
+        "title": "Heights",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Height",
+        "createOrEditLabel": "Crear o editar Height",
+        "notFound": "Ningún Heights encontrado"
+      },
+      "created": "Un nuevo Height ha sido creado con el identificador {{ param }}",
+      "updated": "Un Height ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Height ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Height {{ id }}?"
+      },
+      "detail": {
+        "title": "Height"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "fieldHeight": "Field Height",
+      "endTime": "End Time"
+    }
+  }
+}

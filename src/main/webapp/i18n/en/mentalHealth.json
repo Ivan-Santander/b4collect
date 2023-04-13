@@ -1,0 +1,30 @@
+{
+  "b4CarecollectApp": {
+    "mentalHealth": {
+      "home": {
+        "title": "Mental Healths",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Mental Health",
+        "createOrEditLabel": "Create or edit a Mental Health",
+        "notFound": "No Mental Healths found"
+      },
+      "created": "A new Mental Health is created with identifier {{ param }}",
+      "updated": "A Mental Health is updated with identifier {{ param }}",
+      "deleted": "A Mental Health is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Mental Health {{ id }}?"
+      },
+      "detail": {
+        "title": "Mental Health"
+      },
+      "id": "Id",
+      "usuarioId": "Usuario Id",
+      "empresaId": "Empresa Id",
+      "emotionDescription": "Emotion Description",
+      "emotionValue": "Emotion Value",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "mentalHealthScore": "Mental Health Score"
+    }
+  }
+}
